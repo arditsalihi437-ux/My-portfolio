@@ -3,8 +3,7 @@
 A clean, modern, and fully responsive personal portfolio website built to showcase my skills, projects, and services as a Junior Developer & Designer.
 
 ## 🚀 Live Demo
-<!-- Ju mund ta shtoni linkun këtu pasi ta keni publikuar faqen online -->
-Live link coming soon!
+https://arditsalihi437-ux.github.io/My-portfolio/
 
 ## 🛠️ Built With
 - **HTML5** - Semantic web markup
