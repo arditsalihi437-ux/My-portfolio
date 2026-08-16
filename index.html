@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Ardit Salihi — modern portfolio, bold design, immersive web experiences.">
+  <meta name="theme-color" content="#0a0a1a">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="/favicon/my-icon.png">
+  <title>Ardit Salihi · Portfolio</title>
+
+</head>
+
+<body>
+
+
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Loading&hellip;</p>
+  </div>
+
+
+  <div id="scroll-progress" role="progressbar" aria-label="Scroll progress"></div>
+
+
+  <button id="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <span class="brand-tag">✦ new</span>
+        <h1><my-name>Ardit Salihi</my-name></h1>
+      </div>
+      <div class="nav-group">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation">
+        <label for="nav-toggle" class="nav-toggle-button" aria-label="Toggle navigation" role="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#features">Services</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">✦ JUNIOR DEVELOPER & DESIGNER</span>
+        <h2> Designing and <span> building</span> for the web</h2>
+        <p class="hero-text">I build clean, modern, and fully responsive websites. Focused on turning creative ideas
+          into functional web products with clean code.
+        </p>
+        <div class="button-group">
+          <a class="btn btn-primary" href="#contact">Let's talk</a>
+          <a class="btn btn-outline" href="#work">See work</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <h3>✦ responsive</h3>
+          <p>Modern web layouts optimized for all screens, ensuring a smooth and user-friendly experience on every
+            device.</p>
+          <div class="badge-row">
+            <span>#html</span>
+            <span>#css</span>
+            <span>#javascript</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="arrow"></span>
+      </div>
+    </section>
+
+
+    <section class="section" id="about">
+      <div class="container grid-2">
+        <div class="fade-up delay-1">
+          <h3 style="font-size: clamp(1.6rem, 3vw, 2rem); font-weight: 700; margin-bottom: 1rem;">About Me</h3>
+
+          <p style="font-size: clamp(0.95rem, 1.2vw, 1.05rem); color: var(--text-muted); line-height: 1.8;">
+            I am an aspiring front-end developer and UI/UX designer passionate about building clean, responsive, and
+            user-friendly digital experiences. Focused on learning modern web technologies, I love turning creative
+            concepts into functional web products.
+          </p>
+
+          <p
+            style="font-size: clamp(0.95rem, 1.2vw, 1.05rem); color: var(--text-muted); line-height: 1.8; margin-top: 1.2rem;">
+            Constantly practicing and improving, I focus on writing clean code and combining design thinking with modern
+            layouts to deliver websites that look and feel great.
+          </p>
+        </div>
+
+        <div class="card fade-up delay-2" style="align-self: start;">
+          <p style="font-size: clamp(0.9rem, 1.1vw, 1rem); margin-bottom: 1rem;"><strong>📍 Location</strong><br>Remote
+            / Worldwide</p>
+          <p style="font-size: clamp(0.9rem, 1.1vw, 1rem); margin-bottom: 1rem;"><strong>⏳
+              Experience</strong><br>Entry-level / Passionate Learner</p>
+          <p style="font-size: clamp(0.9rem, 1.1vw, 1rem); margin-bottom: 1rem;"><strong>🎯 Focus</strong><br>UI/UX,
+            responsive web, modern frontend</p>
+          <p style="font-size: clamp(0.9rem, 1.1vw, 1rem);"><strong>🧰 Toolkit</strong><br>HTML5, CSS3, JavaScript,
+            Tailwind, Figma</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <h3>Featured Projects</h3>
+          <p>Personal projects and concepts built to practice modern web development and clean design.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card fade-up delay-1">
+            <h4>⚡ Product Landing Page</h4>
+            <p>A fully responsive landing page focused on clean typography, modern layouts, and optimized image loading.
+            </p>
+          </article>
+          <article class="card fade-up delay-2">
+            <h4>🎨 Web App Concept</h4>
+            <p> A personal UI/UX exploration focusing on user-centered design, clear navigation, and consistent visual
+              elements.
+            </p>
+          </article>
+          <article class="card fade-up delay-3">
+            <h4>🚀 Interactive Web App</h4>
+            <p>A dynamic web application built to practice state management, interactive components, and clean code
+              structure.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading fade-up">
+          <h3>Services</h3>
+          <p>Creative design and clean web development tailored to bring your ideas to life online.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card fade-up delay-1">
+            <h4>✦ UI/UX & Web Design</h4>
+            <p>Creating visually appealing, modern, and user-friendly wireframes and designs in Figma tailored to your
+              specific needs.</p>
+          </article>
+          <article class="card fade-up delay-2">
+            <h4>⚡ Web Development</h4>
+            <p>Turning designs into clean, responsive, and functional websites using modern HTML, CSS, JavaScript, and
+              React.
+            </p>
+          </article>
+          <article class="card fade-up delay-3">
+            <h4>📱 Mobile Optimization</h4>
+            <p>Ensuring your website looks great, loads fast, and works seamlessly across all screen sizes, from
+              desktops to smartphones.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h3 style="font-size: clamp(1.6rem, 3vw, 2rem); font-weight: 700; margin-bottom: 0.5rem;">Skills & Tools</h3>
+        <p style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: clamp(0.95rem, 1.2vw, 1.05rem);">Modern
+          technologies and tools I use to build web projects.
+
+        </p>
+        <div class="skills-grid">
+          <span class="fade-up delay-1">HTML5</span>
+          <span class="fade-up delay-2">CSS3</span>
+          <span class="fade-up delay-3">JavaScript</span>
+          <span class="fade-up delay-4">React</span>
+          <span class="fade-up delay-6">Tailwind CSS</span>
+          <span class="fade-up delay-7">Figma</span>
+          <span class="fade-up delay-8">Git & GitHub</span>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="contact">
+      <div class="container contact-box fade-up">
+        <div>
+          <h3>Let's build something <span
+              style="background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text; color: transparent;">together</span>
+          </h3>
+          <p>Available for freelance projects, internships, or just a friendly chat about web development. Drop me a
+            line!</p>
+        </div>
+        <a class="btn btn-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=arditsalihi437@gmail.com"
+          target="_blank" rel="noopener noreferrer">Get in touch </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ardit Salihi.</p>
+      <p>✦ built with purpose</p>
+    </div>
+  </footer>
+
+  <script src="script/index.js"></script>
+
+</body>
+
+</html>
